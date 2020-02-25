@@ -1,0 +1,92 @@
+body {
+    font-family: Roboto;
+    font-weight: lighter;
+    margin: 0;
+    width: 100%;
+    display: flex;
+}
+
+.containerMenu {
+    width: 19%;
+    flex-direction: row;
+    align-items: left;
+}
+
+
+.vertical-menu {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background-color: #2f3444;
+  }
+  
+.vertical-menu a {
+    
+    color: black;
+    display: block; 
+    padding: 8px; 
+    text-decoration: none; 
+    
+  }
+  
+.vertical-menu a:hover {
+    background-color: #3d4351;
+    border-right: #e9c25b solid 2.5px;
+  }
+
+.menuImages {
+    display:inline-block;
+    padding: 7% 1% 15% 12%;
+}
+
+#logo {
+    width: 55%; 
+}
+
+#menuIcone {
+    width: 14%;
+    margin-left: 20%;
+}
+
+.containerCentro {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    }
+
+#imagesCentro {
+    padding: 1%;
+}
+
+#imagesCentro img{
+    width: 30%;
+}
+
+#imgMatricula {
+    border-left: #2ed1ff solid 8.5px;
+    margin-left: 1%;
+}
+
+#imgCursos {
+    border-left: #a4ff6a solid 8.5px;
+    margin-left: 2.5%;
+}
+
+#imgAvaliacoes {
+    border-left: #a78aff solid 8.5px;
+    margin-left: 2.5%;
+}
+
+.menuIcons a {
+    color: white;
+}
+
+.menuIcons a img {
+    width: 9%;
+    margin-right: 3%;
+}
+
+#grafico {
+    padding: 1.2%;
+}

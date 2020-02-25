@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleLogin.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <img id="logoImg" src="images/Login/logo.png"/>
+        </div>
+
+        <div class="loginBox">
+            <form name="login" action="dashboard.html" method="post" style="display:inline">
+                
+                <img src="images/Login/userImage.jpg"/>
+                <input id="userField" type="text" name="user" placeholder="Seu usuário...">
+
+                <br>
+                
+                <img src="images/Login/passwordImage.jpg"/>
+                <input id="passwordField" type="password" name="password" placeholder="Sua senha...">
+                
+                <br>
+                
+                    <div class="rmbPassword">
+                        <input id="chkRmbPassword" type="checkbox" name="chkRememberPassword">
+                        <label id="lblRmbPassword">Lembrar senha</label>
+    
+                        <a  id="aFgtPassword" href="esqueciMinhaSenha.html">Esqueci minha senha.</a>
+    
+                    </div>
+                <br>
+    
+                <input id="btLogin" type="button" value="Enviar" name="submit" onclick="validate()">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <script src="./js/jquery.js"></script>
+        <script src="./js/jQueryLogin.js"></script>
+        <script src="./js/validate.js"></script>
+    </footer>
+</body>
+</html>

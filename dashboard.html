@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleDashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="containerMenu">
+        <nav class="vertical-menu">
+            <div class="menuImages">
+                <img id="logo" src="images/Dashboard/logo.png"/>
+                <img id="menuIcone" src="images/Dashboard/menuIcone.png"/>
+            </div>
+
+            <div class="menuIcons">
+                <a href="#"><img src="images/Dashboard/dashboardIcone.png"/>Dashboard</a>
+                <a href="#"><img src="images/Dashboard/matriculasIcone.png"/>Matriculas</a>
+                <a href="#"><img src="images/Dashboard/turmasIcone.png"/>Turmas</a>
+                <a href="#"><img src="images/Dashboard/criarConteudosIcone.png"/>Criar Conteúdos</a>
+                <a href="#"><img src="images/Dashboard/cursosIcone.png"/>Cursos</a>
+                <a href="#"><img src="images/Dashboard/trilhasIcone.png"/>Trilhas</a>
+                <a href="#"><img src="images/Dashboard/exames.png"/>Exames</a>
+                <a href="#"><img src="images/Dashboard/estruturaOrgazicional.png"/>Estrutura Organizacional</a>
+                <a href="#"><img src="images/Dashboard/relatório.png"/>Relatórios</a>
+              </div>
+        </nav>
+    </div>
+
+    <div class="containerCentro">
+        <header>
+            <p id="descricao">Dashboard/</p>
+            <img id="userImg" src="images/Dashboard/usuarioIcone.png"/>
+            <div>
+                <p id="user">Nome Usuario</p>
+                <p id="userAdm">Administrador</p>
+            </div>
+            <img id="userArrow" src="images/Dashboard/setaIcone.png"/>
+        </header>
+
+        <div id="imagesCentro">
+            <img id="imgMatricula" src="images/Dashboard/matriculasAtivas.png"/>
+            <img id="imgCursos" src="images/Dashboard/cursosPublicados.png"/>
+            <img id="imgAvaliacoes" src="images/Dashboard/avaliaçõesRealizadas.png"/>
+        </div>
+
+        <br>
+
+        <div id="grafico">
+            <div id="resizable" style="height: 340px;border:1px solid black;">
+                <div id="chartContainer1" style="height: 99%; width: 100%;"></div>
+        </div>
+    </div>
+    <footer>
+        <script src="./js/jquery.js"></script>
+        <script src="./js/jQueryDashboard.js"></script>
+        <script src="./js/chartScript.js"></script>
+        <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+        <script src="https://canvasjs.com/assets/script/jquery-ui.1.11.2.min.js"></script>
+        <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    </footer>
+</body>
+</html>
